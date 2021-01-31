@@ -1,0 +1,5 @@
+- name: copy lorem file
+  template:
+    src: lorem.txt.j2
+    dest: '/tmp/lorem.txt'
+    mode: 0644
